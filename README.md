@@ -1,6 +1,3 @@
-```markdown
-# Solana Transaction Automation Guide
-
 This guide helps you set up Solana CLI on Windows via WSL and run random transfers.
 
 ## 1. Install Ubuntu (WSL)
