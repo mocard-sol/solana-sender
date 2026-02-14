@@ -53,7 +53,7 @@ solana --version
 If you see solana-cli 2.x.x (or higher), the installation was successful.
 
 
-4. Wallet Recovery
+## 4. Wallet Recovery
 Generate wallet files from your existing seed phrases:
 
 Wallet 1:
@@ -72,14 +72,14 @@ Confirm your public addresses:
 solana address -k ~/wallet1.json
 solana address -k ~/wallet2.json
 ```
-5. Funding and Balance Check
+## 5. Funding and Balance Check
 Transfer a small amount of SOL (e.g., 0.05 SOL) to these addresses to cover transaction fees. To check your balance, run:
 
 ```bash
 solana balance -k ~/wallet1.json
 solana balance -k ~/wallet2.json
 ```
-6. Script Configuration
+## 6. Script Configuration
 Create the script file:
 
 ```bash
@@ -96,7 +96,7 @@ Grant Execution Permissions:
 ```bash
 chmod +x ~/send_random.sh
 ```
-7. Execution and Termination
+## 7. Execution and Termination
 To initiate the automated transfers, run:
 
 ```bash
