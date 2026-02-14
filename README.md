@@ -54,7 +54,7 @@ Simple Step-by-Step Guide: Install Ubuntu on Windows → Create Solana Wallets �
 6. Create the transaction script
 
    Run:
-   nano ~/send_random.sh
+   nano ~/send_to_main_and_second.sh
 
    → Paste the script code from GitHub (copy all code from repository)
    → Replace these lines with your real addresses:
@@ -72,7 +72,7 @@ Simple Step-by-Step Guide: Install Ubuntu on Windows → Create Solana Wallets �
 
 7. Run the script
 
-   ~/send_random.sh
+   ~/send_to_main_and_second.shh
 
    Every run:
    - Random number of transactions (MIN_TX to MAX_TX)
