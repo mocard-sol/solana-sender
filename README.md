@@ -2,7 +2,7 @@ This guide helps you set up Solana CLI on Windows via WSL and run random transfe
 
 ## 1. Install Ubuntu (WSL)
 
-```markdown
+```bash
 wsl --install
    • Press Win + S → type "PowerShell" → right-click → Run as administrator
    • Paste this command and press Enter:
