@@ -1,8 +1,11 @@
+```markdown
+# Solana Transaction Automation Guide
+
 This guide helps you set up Solana CLI on Windows via WSL and run random transfers.
 
 ## 1. Install Ubuntu (WSL)
 
-```bash
+```powershell
 wsl --install
    • Press Win + S → type "PowerShell" → right-click → Run as administrator
    • Paste this command and press Enter:
