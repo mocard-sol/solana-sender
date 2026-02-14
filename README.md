@@ -50,5 +50,64 @@ Verify Installation:
 ```bash
 solana --version
 ```
-[!TIP]
 If you see solana-cli 2.x.x (or higher), the installation was successful.
+
+
+4. Wallet Recovery
+Generate wallet files from your existing seed phrases:
+
+Wallet 1:
+```bash
+solana-keygen recover 'prompt:?key=0/0' --outfile ~/wallet1.json
+```
+```bash
+solana-keygen recover 'prompt:?key=0/0' --outfile ~/wallet2.json
+```
+Action: Paste your 12/24-word seed phrase when prompted.
+
+Security Note: Never share your seed phrase or .json files with anyone.
+
+Confirm your public addresses:
+```bash
+solana address -k ~/wallet1.json
+solana address -k ~/wallet2.json
+```
+5. Funding and Balance Check
+Transfer a small amount of SOL (e.g., 0.05 SOL) to these addresses to cover transaction fees. To check your balance, run:
+
+```bash
+solana balance -k ~/wallet1.json
+solana balance -k ~/wallet2.json
+```
+6. Script Configuration
+Create the script file:
+
+```bash
+nano ~/send_random.sh
+```
+Paste your script code into the editor.
+
+Update the variables: Locate SELF_ADDRESS and SECOND_ADDRESS and replace the placeholders with your actual public keys.
+
+Save and Exit: Press Ctrl + O, then Enter, then Ctrl + X.
+
+Grant Execution Permissions:
+
+```bash
+chmod +x ~/send_random.sh
+```
+7. Execution and Termination
+To initiate the automated transfers, run:
+
+```bash
+~/send_random.sh
+```
+The script automates:
+
+A randomized number of transactions.
+
+Variable transfer amounts and delays.
+
+Randomized distribution between your two wallets.
+
+To Stop: Press Ctrl + C. The process will terminate after the current delay cycle completes.
