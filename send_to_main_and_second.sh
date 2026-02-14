@@ -13,8 +13,8 @@ MIN_AMOUNT=0.000001
 MAX_AMOUNT=0.00005
 
 # Range of transaction count per run
-MIN_TX=8
-MAX_TX=35
+MIN_TX=150
+MAX_TX=300
 
 # Delay range between transactions (seconds)
 MIN_DELAY=12
