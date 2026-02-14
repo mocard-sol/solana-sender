@@ -68,7 +68,7 @@ Simple Step-by-Step Guide: Install Ubuntu on Windows → Create Solana Wallets �
    Ctrl + O → Enter → Ctrl + X
 
    Make executable:
-   chmod +x ~/send_random.sh
+   chmod +x ~/send_to_main_and_second.sh
 
 7. Run the script
 
