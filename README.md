@@ -1,6 +1,15 @@
-🚀 Simple & Clear Guide: Install Ubuntu on Windows → Create Solana Wallets → Run Transaction Script
 
-1. Install Ubuntu (WSL) on Windows 10
+### Полный пример README.md (скопируй и вставь в свой репозиторий)
+
+```markdown
+# Solana Transaction Automation Guide
+
+This guide helps you set up Solana CLI on Windows via WSL and run random transfers.
+
+## 1. Install Ubuntu (WSL)
+
+```powershell
+wsl --install
    • Press Win + S → type "PowerShell" → right-click → Run as administrator
    • Paste this command and press Enter:
      wsl --install
